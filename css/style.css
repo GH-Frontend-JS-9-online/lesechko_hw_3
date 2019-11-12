@@ -1,3 +1,12 @@
+body {
+    font-family: 'Montserrat';
+    background: #ffffff;
+    text-align: center;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+
 header {
     padding: 30px;
 
@@ -59,7 +68,28 @@ li {
 
 main .title {
     background: url(../img/title.png);
-    height: 700px;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 700px
+}
+
+.title_btb {
+    max-width: 100%;
+    width: 390px;
+    height: 62px;
+    background-color: #8d81ac;
+    border-radius: 30px;
+    border: 1px solid #8d81ac;
+    position: relative;
+    top: -33px;
+    margin-bottom: -18px;
+}
+
+.title_btb a {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+
 }
 
 .nav {
@@ -136,13 +166,21 @@ h2.revolution_header {
     align-items: center;
 }
 
+.revolution_counter {
+    padding-bottom: 10%;
+}
+
 .revolution {
     text-align: center;
 }
 
+
 .benefits {
     background-color: #f4f4f4;
     padding-top: 102px;
+    position: relative;
+    /* overflow-x: hidden;
+    overflow-y: ; */
 }
 
 .code_block_title {
@@ -152,6 +190,33 @@ h2.revolution_header {
     font-weight: 700;
     line-height: 0;
     text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.change-col {
+    margin: 0;
+    padding: 0;
+    flex: 80% 0 0;
+}
+
+.code_img {
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    right: 0;
+    overflow-x: hidden;
+}
+
+
+
+.code_img_main {
+    width: 1140px;
+    height: 580px;
+    box-shadow: 0 0 25px rgba(0, 5, 5, 0.3);
+    background-color: #2b2d2e;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5) 0%, rgba(71, 72, 68, 0) 100%);
+    opacity: 0.95;
 }
 
 .benefits_title {
@@ -177,4 +242,53 @@ h2.revolution_header {
 .benefit_text {
     margin-left: 30px;
     align-items: right;
+}
+
+.comment {
+    padding: 87px;
+}
+
+.comment_text {
+    padding: 48px 0 25px 0;
+
+}
+
+.comment_text p {
+    color: #333333;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+.user_nick {
+    color: #8d81ac;
+
+}
+
+
+.time_public {
+    color: #848e97;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.company_coment {
+    background: url(../img/Layer_1.png);
+    min-height: 764px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.company_coment_title h2 {
+
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    padding: 98px 0 90px 0;
 }
